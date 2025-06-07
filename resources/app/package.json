@@ -1,0 +1,13 @@
+{
+  "name": "hunter2",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-packager . hunter2 --platform=win32 --arch=x64 --out=dist --overwrite --icon=icon.ico"
+  },
+  "devDependencies": {
+    "electron": "latest",
+    "electron-packager": "latest"
+  }
+}
